@@ -166,7 +166,7 @@ How to use:
         
 if __name__ == "__main__":
     #用一个进程创建主页面，先隐藏，后面直接打开即可，加快速度。
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     root = tk.Tk()
     app = MainApp(root)
     root.mainloop()
